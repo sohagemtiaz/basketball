@@ -16,3 +16,10 @@ function addScore(team, amount) {
         document.getElementById('guest-score').textContent = scores.guest;
     }
 }
+
+function resetGame() {
+    scores.home = 0;
+    scores.guest = 0;
+    document.getElementById('home-score').textContent = 0;
+    document.getElementById('guest-score').textContent = 0;
+}
